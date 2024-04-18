@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap')
+
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+   height: 100vh;
+   background-color: white ;
+   background-image: url('floresta.png');
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+}
+
+div img {
+    height: 200px;
+}
+
+a{
+    text-decoration: none;
+    
+}
+
+a:hover {
+    text-decoration: underline ;
+}
+
+.cara{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center ;
+    justify-content: space-around;
+}
+
+.top{
+    display: flex;
+    gap: 90px;
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
+}
+
+.macaco{
+    filter: drop-shadow(1px 1px 20px gold);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 550px;
+}
+
+.fernandes{
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
+    display: flex;
+    flex-direction: row;
+    align-items: center ;
+    justify-content: space-around;
+
+}
+
+.joao{
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
+    display: flex;
+    flex-direction: row;
+    align-items: center ;
+    justify-content: space-around;
+}
+
+.menu{
+    color:black;
+}
